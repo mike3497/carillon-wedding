@@ -1,6 +1,7 @@
 <template>
   <div>
     <HeroImage />
+
     <div class="container mx-auto max-w-xl px-4 mb-4">
       <FloralHeading>{{ daysUntilWedding }}</FloralHeading>
       <p>
