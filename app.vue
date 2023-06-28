@@ -1,5 +1,15 @@
 <template>
-  <h1 class="text-3xl font-bold underline">Hello world!</h1>
+  <main>
+    <TheHeader />
+    <NuxtPage />
+    <TheFooter />
+  </main>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+useHead({
+  bodyAttrs: {
+    class: 'bg-slate-50',
+  },
+});
+</script>

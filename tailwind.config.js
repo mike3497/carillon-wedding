@@ -9,7 +9,12 @@ module.exports = {
     './app.vue',
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        display: ['Sacramento'],
+        sans: ['Roboto Slab'],
+      },
+    },
   },
   plugins: [],
 };
