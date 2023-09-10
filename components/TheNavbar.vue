@@ -1,7 +1,6 @@
 <template>
   <nav class="container mx-auto pt-2 pb-4">
     <div class="flex items-center justify-between">
-      <!-- Mobile menu button -->
       <div class="flex md:hidden">
         <button
           type="button"
@@ -42,17 +41,3 @@
 <script setup lang="ts">
 const showMenu = ref<boolean>(false);
 </script>
-
-<!-- <template>
-  <nav class="flex flex-row text-zinc-500">
-    <NuxtLink class="m-2" to="/" activeClass="text-zinc-800">Home</NuxtLink>
-    <NuxtLink class="m-2" to="/" activeClass="text-zinc-800"
-      >Our Story</NuxtLink
-    >
-    <NuxtLink class="m-2" to="/" activeClass="text-zinc-800">Photos</NuxtLink>
-    <NuxtLink class="m-2" to="/" activeClass="text-zinc-800">Registry</NuxtLink>
-    <NuxtLink class="m-2" to="/" activeClass="text-zinc-800"
-      >Wedding Details</NuxtLink
-    >
-  </nav>
-</template> -->
