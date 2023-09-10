@@ -68,6 +68,10 @@ const daysUntilWedding = computed<string>(() => {
   const today = new Date();
   const timeDifference = weddingDate.getTime() - today.getTime();
   const daysUntil = Math.ceil(timeDifference / (1000 * 3600 * 24));
+  if (daysUntil <= 0) {
+    return `${Math.abs(daysUntil)} days married!`;
+  }
+
   return `${daysUntil} days to go!`;
 });
 </script>
